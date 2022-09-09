@@ -3,6 +3,7 @@
   "displayName": "Gatot Kaca",
   "description": "A vscode theme that suits your eyes of night coders.",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "bugs": {
     "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme/issues",
     "email": "hafizhmy26@gmail.com"
