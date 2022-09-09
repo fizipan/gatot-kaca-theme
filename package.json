@@ -3,9 +3,24 @@
   "displayName": "Gatot Kaca",
   "description": "A vscode theme that suits your eyes of night coders.",
   "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme/issues",
+    "email": "hafizhmy26@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme"
+  },
+  "publisher": "hafizhmaulanay",
   "engines": {
     "vscode": "^1.71.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "gatot kaca",
+    "gatot kaca theme"
+  ],
   "categories": [
     "Themes"
   ],
