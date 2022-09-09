@@ -1,0 +1,21 @@
+{
+  "name": "gatot-kaca",
+  "displayName": "Gatot Kaca",
+  "description": "A vscode theme that suits your eyes of night coders.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Gatot Kaca",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Gatot Kaca-color-theme.json"
+      }
+    ]
+  }
+}
