@@ -207,6 +207,7 @@
         "constant.language.boolean.true",
         "keyword.operator.new",
         "keyword.other.new",
+        "keyword.other.definition.ini",
         "variable.parameter.tailwind.tailwind",
         "variable.parameter.layer.tailwind",
         "entity.name.function.blade",
