@@ -1,6 +1,7 @@
-## Gatot Kaca
+# Gatot Kaca for [Visual Studio Code](http://code.visualstudio.com)
 
-Gatot Kaca is a color scheme, customized user interface theme and complete icon set for Visual Studio Code. It has been designed by the Hafizh Maulana Yusliansyah.
+> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+> ![Screenshot](https://raw.githubusercontent.com/hafizhmaulanay/gatot-kaca-theme/master/screenshot.png)
 
 ## Apply theme
 
@@ -36,8 +37,10 @@ If you want, I have some recommended settings that you can use.
 }
 ````
 
-If you like more, please gift me 🌟
+## Contributing
 
-## Contribute
+If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).
 
-I also opened the repo on [github](https://github.com/hafizhmaulanay/gatot-kaca-theme), so for those of you who want to make the theme more robust, or add support for other languages, you can directly make a pull request.
+## License
+
+[MIT License](./LICENSE)
