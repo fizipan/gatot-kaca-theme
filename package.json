@@ -13,6 +13,10 @@
     "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme"
   },
   "publisher": "hafizhmaulanay",
+  "scripts": {
+    "package": "vsce package -o ./bin/gatot-kaca.vsix",
+    "vsce-publish": "vsce publish"
+  },
   "engines": {
     "vscode": "^1.71.0"
   },
