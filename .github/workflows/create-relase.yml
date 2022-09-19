@@ -8,10 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v1
         with:
-          node-version: lts/*
-          cache: npm
+          node-version: ${{ env.NODE_VERSION }}
       - run: npm install && npm install -g vsce && mkdir -p ./bin
       - run: npm run package
       - uses: actions/create-release@v1
