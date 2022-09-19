@@ -4,26 +4,19 @@
 
 ![Screenshot](https://github.com/hafizhmaulanay/gatot-kaca-theme/blob/e4be885510ff18c3cca8f4443ab0e5e11dfeb17a/screenshoot.png)
 
-## Apply theme
+#### Install using Command Palette
 
-To apply theme, it's so simple. Just open your command palette and type "settings.json". Then you can add the theme like so
+1.  Go to `View -> Command Palette` or press `Ctrl+Shift+P`
+2.  Then enter `Install Extension`
+3.  Write `Gatot Kaca`
+4.  Select it or press Enter to install
 
-```json
-{
-  "workbench.colorTheme": "Gatot Kaca"
-  // ...
-}
-```
+#### Activating theme
 
-If you care about the title bar style, please make sure you have the titleBarStyle to "custom" like so:
+Run Visual Studio Code. The Gatot Kaca Syntax Theme will be available from `File -> Preferences -> Color Theme` dropdown menu.
 
-````json
-{
-    "workbench.colorTheme": "Gatot Kaca",
-    "window.titleBarStyle": "custom"
-    // ...
-}
 If you want, I have some recommended settings that you can use.
+
 ```bash
 {
     "workbench.colorTheme": "Gatot Kaca",
@@ -36,7 +29,7 @@ If you want, I have some recommended settings that you can use.
     "editor.renderControlCharacters": false,
     "editor.hideCursorInOverviewRuler": true,
 }
-````
+```
 
 ## Contributing
 
