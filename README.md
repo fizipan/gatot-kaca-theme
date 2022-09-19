@@ -40,7 +40,3 @@ If you want, I have some recommended settings that you can use.
 ## Contributing
 
 If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).
-
-## License
-
-[MIT License](./LICENSE)
