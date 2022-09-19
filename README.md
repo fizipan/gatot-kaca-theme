@@ -4,14 +4,14 @@
 
 ![Screenshot](https://github.com/hafizhmaulanay/gatot-kaca-theme/blob/e4be885510ff18c3cca8f4443ab0e5e11dfeb17a/screenshoot.png)
 
-#### Install using Command Palette
+### Install using Command Palette
 
 1.  Go to `View -> Command Palette` or press `Ctrl+Shift+P`
 2.  Then enter `Install Extension`
 3.  Write `Gatot Kaca`
 4.  Select it or press Enter to install
 
-#### Activating theme
+### Activating theme
 
 Run Visual Studio Code. The Gatot Kaca Syntax Theme will be available from `File -> Preferences -> Color Theme` dropdown menu.
 
