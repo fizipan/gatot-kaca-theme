@@ -1,7 +1,7 @@
 # Gatot Kaca for [Visual Studio Code](http://code.visualstudio.com)
 
 > A dark theme for [Visual Studio Code](http://code.visualstudio.com).
-> ![Screenshot](https://raw.githubusercontent.com/hafizhmaulanay/gatot-kaca-theme/master/screenshot.png)
+> ![Screenshot](https://github.com/hafizhmaulanay/gatot-kaca-theme/blob/81c979bd4794259f74667ae8d70bf6d92b4c5eb5/screenshoot.png)
 
 ## Apply theme
 
