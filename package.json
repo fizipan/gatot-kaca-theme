@@ -1,41 +1,49 @@
 {
-  "name": "gatot-kaca",
-  "displayName": "Gatot Kaca",
-  "description": "A vscode theme that suits your eyes of night coders.",
-  "version": "0.2.0",
-  "icon": "images/icon.png",
-  "bugs": {
-    "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme/issues",
-    "email": "hafizhmy26@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme"
-  },
-  "publisher": "hafizhmaulanay",
-  "scripts": {
-    "package": "vsce package -o ./bin/gatot-kaca.vsix",
-    "vsce-publish": "vsce publish"
-  },
-  "engines": {
-    "vscode": "^1.71.0"
-  },
-  "keywords": [
-    "theme",
-    "dark theme",
-    "gatot kaca",
-    "gatot kaca theme"
-  ],
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Gatot Kaca",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Gatot Kaca-color-theme.json"
-      }
-    ]
-  }
+    "name": "gatot-kaca",
+    "displayName": "Gatot Kaca",
+    "description": "A vscode theme that suits your eyes of night coders.",
+    "version": "0.2.0",
+    "icon": "images/icon.png",
+    "bugs": {
+        "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme/issues",
+        "email": "hafizhmy26@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hafizhmaulanay/gatot-kaca-theme"
+    },
+    "publisher": "hafizhmaulanay",
+    "scripts": {
+        "build": "node ./scripts/build.js",
+        "lint": "node ./scripts/lint.js",
+        "package": "vsce package -o ./bin/gatot-kaca.vsix",
+        "vscode:prepublish": "npm run build",
+        "vsce-publish": "vsce publish"
+    },
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "gatot kaca",
+        "gatot kaca theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gatot Kaca",
+                "uiTheme": "vs-dark",
+                "path": "./themes/gatot-kaca.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0",
+        "prettier": "^2.7.1",
+        "vsce": "^2.11.0"
+    }
 }

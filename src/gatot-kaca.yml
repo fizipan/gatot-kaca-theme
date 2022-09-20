@@ -1,0 +1,69 @@
+$schema: vscode://schemas/color-theme
+name: Gatot kaca
+author: Hafizh Maulana Yusliansyah
+semanticClass: theme.gatot-kaca
+semanticHighlighting: true
+gatot-kaca:
+  base:
+    - &BG '#111827'
+    - &FG '#F9FAFB'
+    - &SELECTION '#374151'
+    - &COMMENT '#6B7280'
+    - &BLUE '#2563EB'
+    - &CYAN '#8BE9FD'
+    - &YELLOW '#EFD5AF'
+    - &BLUESKY '#7DD3FC'
+  ansi:
+    - &COLOR0 '#0EA5E9'
+    - &COLOR1 '#F45282'
+    - &COLOR2 '#A5CAFF'
+    - &COLOR3 '#BBF7D0'
+    - &COLOR4 '#FEF08A'
+  brightOther:
+    # Temporary (awaiting fix)
+    - &TEMP_QUOTES '#E9F284'
+    - &TEMP_PROPERTY_QUOTES '#38BDF8'
+  other:
+    - &LineHighlight '#44475A75'
+    - &NonText '#FFFFFF1A'
+    - &WHITE '#FFFFFF'
+    - &TAB_DROP_BG '#44475A70'
+    # UI Variants
+    - &BGGray '#9CA3AF'
+    - &BGLighter '#D1D5DB'
+    - &BGLight '#E5E7EB'
+    - &BGDark '#1F2937'
+
+# User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
+colors:
+  # Integrated Terminal Colors
+  terminal.background: *BG
+  terminal.foreground: *FG
+  terminal.ansiBrightRed: *COLOR1
+  terminal.ansiBrightGreen: *FG
+  terminal.ansiBrightBlue: *COLOR2
+  terminal.ansiBrightCyan: *COLOR0
+  terminal.ansiGreen: *COLOR3
+  terminal.ansiYellow: *COLOR4
+
+  # Button Control
+  button.background: *BGDark
+  button.foreground: *WHITE
+  button.hoverBackground: *SELECTION
+
+  # Dropdown Control
+  dropdown.background: *BGDark
+
+  # Input Control
+  input.background: *BGDark
+  input.foreground: *BGLight
+  input.border: *BGDark
+  input.placeholderForeground: *BGGray
+  inputOption.activeBorder: *SELECTION
+
+  # Scroll Bar Control
+  scrollbar.shadow: *BG
+
+  # Badge
+  badge.foreground: *WHITE
+  badge.background: *BLUE
